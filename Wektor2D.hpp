@@ -1,7 +1,8 @@
 class Wektor2D
 {
     // Tutaj napisz implementacje klasy Wektor2D
-    Wektor2D(double xx=0, double yy=0)
+    Wektor2D(){x=0.;y=0.;}
+    Wektor2D(double xx, double yy)
     {
         setX(xx);
         setY(yy);
