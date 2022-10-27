@@ -25,7 +25,7 @@ Wektor2D operator +(Wektor2D a, Wektor2D b)
 {
     double xx = a.getX() + b.getX();
     double yy = a.getY() + b.getY();
-    return Wektor2D (xx,yy);
+    return Wektor2D {xx,yy};
 }
 
 double operator *(Wektor2D a, Wektor2D b)
